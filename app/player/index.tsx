@@ -1,0 +1,9 @@
+import { View, Text } from "react-native";
+
+export default function Player() {
+  return (
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text style={{ fontSize: 22 }}>Área do Jogador ⚽</Text>
+    </View>
+  );
+}
